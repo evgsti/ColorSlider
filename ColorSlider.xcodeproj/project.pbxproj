@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BE9AA5E12C453DB200053617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AA5E02C453DB200053617 /* AppDelegate.swift */; };
 		BE9AA5E32C453DB200053617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AA5E22C453DB200053617 /* SceneDelegate.swift */; };
-		BE9AA5E52C453DB200053617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AA5E42C453DB200053617 /* ViewController.swift */; };
+		BE9AA5E52C453DB200053617 /* SlidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AA5E42C453DB200053617 /* SlidersViewController.swift */; };
 		BE9AA5E82C453DB200053617 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE9AA5E72C453DB200053617 /* Base */; };
 		BE9AA5EA2C453DB300053617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9AA5E92C453DB300053617 /* Assets.xcassets */; };
 		BE9AA5ED2C453DB300053617 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE9AA5EC2C453DB300053617 /* Base */; };
+		BEF1B35B2C63C0F200ED39DF /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1B35A2C63C0F200ED39DF /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE9AA5DD2C453DB200053617 /* ColorSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9AA5E02C453DB200053617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE9AA5E22C453DB200053617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE9AA5E42C453DB200053617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9AA5E42C453DB200053617 /* SlidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersViewController.swift; sourceTree = "<group>"; };
 		BE9AA5E72C453DB200053617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE9AA5E92C453DB300053617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9AA5EC2C453DB300053617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9AA5EE2C453DB300053617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF1B35A2C63C0F200ED39DF /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				BE9AA5E02C453DB200053617 /* AppDelegate.swift */,
 				BE9AA5E22C453DB200053617 /* SceneDelegate.swift */,
-				BE9AA5E42C453DB200053617 /* ViewController.swift */,
+				BEF1B35A2C63C0F200ED39DF /* ColorViewController.swift */,
+				BE9AA5E42C453DB200053617 /* SlidersViewController.swift */,
 				BE9AA5E62C453DB200053617 /* Main.storyboard */,
 				BE9AA5E92C453DB300053617 /* Assets.xcassets */,
 				BE9AA5EB2C453DB300053617 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9AA5E52C453DB200053617 /* ViewController.swift in Sources */,
+				BE9AA5E52C453DB200053617 /* SlidersViewController.swift in Sources */,
 				BE9AA5E12C453DB200053617 /* AppDelegate.swift in Sources */,
+				BEF1B35B2C63C0F200ED39DF /* ColorViewController.swift in Sources */,
 				BE9AA5E32C453DB200053617 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
